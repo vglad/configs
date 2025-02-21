@@ -1,0 +1,24 @@
+[core]
+	excludesFile = /home/vlad/.gitignore
+	editor = vim
+[user]
+	email = volodymyr.gladun@cognitivecredit.com
+	name = Volodymyr Gladun
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = true
+[merge]
+	conflictStyle = diff3
+	tool = meld
+[diff]
+	tool = meld
+	prompt = false
+[alias]
+	clone-for-worktrees = "!sh /usr/local/bin/bare-for-worktrees.sh"
+[remote "origin"]
+	tagOpt = --tags
+[mergetool "meld"]
+	path = /usr/bin/meld
+[mergetool]
+	prompt = false
