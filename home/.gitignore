@@ -1,0 +1,5 @@
+.idea/
+cmake-build-*/
+pdf-renderer/scripts/test/abtest/
+pdf-renderer/scripts/test/pdftotext/*.pdf
+data-extractor/scripts/test/extractTableValues/regressionTests/
